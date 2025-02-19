@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "singleByte",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "twoBytes",
+				"outputs": [
+					{
+						"internalType": "bytes2",
+						"name": "",
+						"type": "bytes2"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "newByte",
+						"type": "bytes1"
+					}
+				],
+				"name": "updateSingleByte",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes2",
+						"name": "newBytes",
+						"type": "bytes2"
+					}
+				],
+				"name": "updateTwoByte",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BytesAssignment.sol": "BYtesass"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BytesAssignment.sol": {
+			"keccak256": "0x50ab59afdd0a6df7b68a2b351105273ba8f35c42ec2172d90712ee530d4cea8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a81ac93c25a1294b7f38d1512f0d4f1efcfa3871f640247046510c015134d9ba",
+				"dweb:/ipfs/Qme8yYdEPjTz8Mv3VXrcEQyPyK8AZ35ktai9mtHq1X9MPW"
+			]
+		}
+	},
+	"version": 1
+}
