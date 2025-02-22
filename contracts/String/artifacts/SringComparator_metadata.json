@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "s2",
+						"type": "string"
+					}
+				],
+				"name": "compareStrings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/String/compare.sol": "SringComparator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/String/compare.sol": {
+			"keccak256": "0xf84e1907bfd953cdec87984652ea7c0aff61a12c8ff88f305526111046e50493",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2247560cfb02da413d6754352fd18c2b919ccaebbc370fe0acc794382e923eb7",
+				"dweb:/ipfs/QmdTxRsqgJD3MCXZ5L8HNfWzzXirSNopykdPPQQ1QJHmVA"
+			]
+		}
+	},
+	"version": 1
+}
