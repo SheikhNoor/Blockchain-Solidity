@@ -27,7 +27,7 @@
 								"type": "bool"
 							}
 						],
-						"internalType": "struct arrayOfSturct.Student[4]",
+						"internalType": "struct employee.Student[4]",
 						"name": "",
 						"type": "tuple[4]"
 					}
@@ -106,7 +106,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Struct/EmployeeRegistry.sol": "arrayOfSturct"
+			"contracts/Struct/EmployeeRegistry.sol": "employee"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -121,11 +121,11 @@
 	},
 	"sources": {
 		"contracts/Struct/EmployeeRegistry.sol": {
-			"keccak256": "0x15456367941b73cc08859858fcb5c0c0bec54f67795e98a0885db2c805639d7a",
+			"keccak256": "0x00a660c8318a16280cf9bb76965efc68f81b350145d1ca072089fb289465d187",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://72b3c713811c8d43fff5f47d226bfac4887b4d238063f582d5e64dcfe7987010",
-				"dweb:/ipfs/QmQCdExyQhLPqqg4Xrxj4BjQjrz93t7GMnLpbg3nS6k7Xj"
+				"bzz-raw://465b7ecfdb7afa4133a416147528615c2277953d1e863ffd4ac84b4f6448c93f",
+				"dweb:/ipfs/QmZWrFA1gdJuaKdNqa6BaERnCxYiiwsqdn5Xjq1Ffzeh3F"
 			]
 		}
 	},
