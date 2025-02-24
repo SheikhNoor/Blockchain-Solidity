@@ -10,10 +10,8 @@ contract employeeRegistry{
     //dymnamic array
     Employee[] public emp;
 
-    function insert(uint index, uint256 Employee_Id, string calldata Employee_Name , uint256 Employee_Salary) public {
-        emp[index].id = Employee_Id;
-        emp[index].name = Employee_Name;
-        emp[index].salary = Employee_Salary ;
+    function insert(uint256 Employee_Id, string calldata Employee_Name , uint256 Employee_Salary) public {
+        emp.push(Employee(Employee_Id,Employee_Name,Employee_Salary));
     }
 
 //dynamic array

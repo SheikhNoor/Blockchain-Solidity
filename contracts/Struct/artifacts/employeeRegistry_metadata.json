@@ -74,11 +74,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
 						"name": "Employee_Id",
 						"type": "uint256"
 					},
@@ -127,11 +122,11 @@
 	},
 	"sources": {
 		"contracts/Struct/EmployeeRegistry.sol": {
-			"keccak256": "0x05ae2c5559f09cbc9445f03ec716ab5c206c47d78f34bbd06897a84f205af6ef",
+			"keccak256": "0x5b9fde173be8414c7486f72b5531333927fd8290c732aaac2ffd8c0f910c69c9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7e7421106545e6680e73efbe56f1bf03bb7582d98888f8e06b99d1ea9395f142",
-				"dweb:/ipfs/QmTxGDbrqPVFWDK3g7hBWXmbjHKHsW5DuWZwCTbk7uGiay"
+				"bzz-raw://d0bb73f6978da4606b2612b56d63430390c0cf6037e9552481e38eaa5f43685a",
+				"dweb:/ipfs/QmZ1L3ThWZRjnms6H2TYFfyMiVWiNCGurWnEF6ap4otn3g"
 			]
 		}
 	},
