@@ -4,7 +4,92 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "element",
+						"type": "uint256"
+					}
+				],
+				"name": "insertElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lengthOfArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "removeAllElement",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "removeElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "returnElement",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +103,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Array/MemoryVsStorage.sol": "Dynamic"
+			"contracts/Array/DynamicSize.sol": "Dynamic"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -32,12 +117,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Array/MemoryVsStorage.sol": {
-			"keccak256": "0x011bc4674c51fede87be6f6adc80b5cb8632d29d707878e7f2ddca6c6350258b",
+		"contracts/Array/DynamicSize.sol": {
+			"keccak256": "0x0744f86034ddc9ce6468c2dcbe35f77b76fa52c1c25a2d8d41582d057b4077c6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a24b4269e86ae0d51e8f78fd1ea33ed09d42d0ae5788703e33e2713067a7c630",
-				"dweb:/ipfs/QmRsAFmPaoy9UTYSyHGgCBu7iyZjAejfy6YqkSRFzWHzT8"
+				"bzz-raw://f87f6afdf8208db16378c6af6164b021d8972f92aa2937c7265706c9acf97a0a",
+				"dweb:/ipfs/QmbhcHnahhKsjEY8x9jvyrgcVzFPfMZrpiuxqd9Uu4zauY"
 			]
 		}
 	},
