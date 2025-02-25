@@ -6,26 +6,24 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "ethValue",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					}
+				],
+				"name": "getUserDetails",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "sendEth",
-				"outputs": [
+					},
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -33,11 +31,29 @@
 			},
 			{
 				"inputs": [],
-				"name": "timeSendEth",
+				"name": "sendEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "ethValue",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "times",
 						"type": "uint256"
 					}
 				],
@@ -58,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Global Variable/Store.sol": "store"
+			"contracts/Global Variable/storeByMapping.sol": "store"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -72,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Global Variable/Store.sol": {
-			"keccak256": "0x8da24c3df36b84dc71c4c6d98ff987c3c6276b51e3252ddb4f16780fd0914f87",
+		"contracts/Global Variable/storeByMapping.sol": {
+			"keccak256": "0xadb43972189fb2de4a0b97726959b2bbae26dbba18cfa385761da852b82014e7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3ee802271bd3777b935fc12449ec77e0bc50827bf901a48674acd3f6cd1f9e16",
-				"dweb:/ipfs/QmY9z15jACF4z4YwkJq6X7EmfJ7AtnT5rGrfph3WNTyhUN"
+				"bzz-raw://4e2557c68f239a0b95c550376d2da5785a8523ae65807be75f222167fcfcaf1a",
+				"dweb:/ipfs/QmRxKC84Jni3VN5B64DkWAAGLAGpmtKtpkdtXDuqhXfnTr"
 			]
 		}
 	},
