@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ethSendByUser",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Global Variable/blockTimestamp.sol": "msgValue"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Global Variable/blockTimestamp.sol": {
+			"keccak256": "0x2e5148647e54b839e9760113d8c0e39671f89ecd97c94f5adc3942df37f236fb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7fdbfa68b91ce2606cac5ef743441f7b19edbd212a5a61f07abba4193ee096f5",
+				"dweb:/ipfs/QmQzgGxXBSS5L4uxENP5HtfY7y29SkfxPviYj3T5FYeVNe"
+			]
+		}
+	},
+	"version": 1
+}

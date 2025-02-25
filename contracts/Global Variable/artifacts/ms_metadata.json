@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "returnTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Global Variable/blockTimestamp.sol": "ms"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Global Variable/blockTimestamp.sol": {
+			"keccak256": "0x3c37d3c514596b0fa78b6a340aee5d10596f0332e2457e391d6bc9aa1a083f55",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ed698a7771e69f14f646169b7e404e355ce30a05fec01808b14234be7171917e",
+				"dweb:/ipfs/Qmf8FPxxC1UProNjxTE8f6wvK3ZPYR84cN4y7neJySr7Ao"
+			]
+		}
+	},
+	"version": 1
+}
