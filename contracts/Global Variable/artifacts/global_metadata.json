@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Global Variable/blockTimestamp.sol": "global"
+			"contracts/Global Variable/msgValue.sol": "global"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Global Variable/blockTimestamp.sol": {
-			"keccak256": "0xc321a5a50b665bbc10d37f1e745359866ed122c9d906f0dbab56a6b724787f94",
+		"contracts/Global Variable/msgValue.sol": {
+			"keccak256": "0x525823f08acd1b323dd2962bb40f1c4b6759b2b8ea06780d06b8d2140220c000",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://10a0c64c58eec234f699a560e30c0daffb6eb2c35420281456cbfe72e87c5a7e",
-				"dweb:/ipfs/QmXwupB2YnuMQoQVZjNRk16NvDiYNtG6PFApyWk5ZeaAYL"
+				"bzz-raw://e55ccb324e16ffd70e54ccaf684fe2cf638ed8cc0524926b7ee5a5427b7c8113",
+				"dweb:/ipfs/QmRQPZxKAVgY7gWVGAuUfCrW7g5QHK7hchFFdUP12eGLW5"
 			]
 		}
 	},
