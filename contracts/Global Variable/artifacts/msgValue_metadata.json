@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Global Variable/blockTimestamp.sol": "msgValue"
+			"contracts/Global Variable/msgValuessol": "msgValue"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Global Variable/blockTimestamp.sol": {
+		"contracts/Global Variable/msgValuessol": {
 			"keccak256": "0x2e5148647e54b839e9760113d8c0e39671f89ecd97c94f5adc3942df37f236fb",
 			"license": "GPL-3.0",
 			"urls": [
