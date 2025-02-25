@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Global Variable/multpleDataUser.sol": "Store"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Global Variable/multpleDataUser.sol": {
+			"keccak256": "0xb2c2a278fc89e4d854456054feb3fe4391135b6415b611fc95af199cd66ba1af",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c832e3c72f3be5796935835ebaa32b5169eaf41752f959d35b17245a7fe1914a",
+				"dweb:/ipfs/QmSnmkf9pgAYxMdscWagxz8pS3fCvWheZdis8GXQpR3uao"
+			]
+		}
+	},
+	"version": 1
+}
